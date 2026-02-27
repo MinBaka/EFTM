@@ -5,4 +5,4 @@ edition = "2021"
 
 [dependencies]
 iced = { version = "0.12", features = ["advanced", "image", "tokio"] }
-sysinfo = "0.29"
+sysinfo = "0.30"

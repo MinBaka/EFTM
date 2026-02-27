@@ -1,6 +1,6 @@
 use iced::widget::{button, column, container, row, text, Space};
 use iced::{Alignment, Application, Color, Command, Element, Length, Padding, Settings, Size, Subscription, Theme, window};
-use sysinfo::{ProcessExt, System, SystemExt};
+use sysinfo::System;
 
 // =============================================================================
 // 1. 程序主入口

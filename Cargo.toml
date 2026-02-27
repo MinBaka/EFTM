@@ -1,0 +1,9 @@
+[package]
+name = "eftm_ui"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+# 使用最新稳定的 Iced 喵
+iced = { version = "0.12", features = ["advanced", "image"] }
+# 用来处理图标喵 (这里简单演示，未实际引入外部字体，用文本代替喵)
